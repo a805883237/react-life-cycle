@@ -52,7 +52,7 @@ webpack-dev-server
 当组件要被从界面上移除的时候，就会调用。在这个函数中，可以做一些组件相关的清理工作，例如取消计时器、网络请求等。
 
 
-生命周期 | 调用次数	| 能否使用 setSate()
+生命周期 | 调用次数	| 能否使用 setState()
 ---      | ---      | ---
 getDefaultProps	| 1(全局调用一次) | 否
 getInitialState	| 1	| 否
